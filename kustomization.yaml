@@ -1,0 +1,17 @@
+resources:
+  - deployment.yaml
+  - service.yaml
+
+commonLabels:
+  app: my-nginx
+
+commonAnnotations:
+  app: my-nginx-annotations
+
+namePrefix:
+  kustom-
+
+nameSuffix: 
+  -v1
+
+  
